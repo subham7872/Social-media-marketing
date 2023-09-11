@@ -1,0 +1,196 @@
+/* @import url("https://fonts.googleapis.com/css2?family=joefin+Sans:wght@400;600@family"); */
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400;900&family=Roboto:ital,wght@0,300;0,700;1,300&family=Urbanist:ital,wght@0,600;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+:root{
+    --bs-dark-color: #1a1d20
+    --bs-dark-primary: #1c1c1c
+    --bs-main-color: #fff
+    --bs-primary-color: #c6c6c6
+    --secondary-color: #29a9fd
+    --bs-supporting-color: #c850c0
+
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "Lexend Deca", "sans-serif";
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar-nav li a:hover{
+   color: rgb(123, 25, 228);
+
+}
+
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+}
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.common-section{
+    padding: 0 0 9rem 0;
+}
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+ 
+
+.header-image{
+    max-width: 100%;
+    height: auto;
+    width: 70rem;
+    border-radius: 2rem;
+}
+
+.service-section{
+    padding: 6rem 0 3rem 0;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #1089ff;
+    color: var(--bg-main-color);
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.7), rgba(22,22,22,0.9)), url(https:media.istockphoto.com/id/1300384615/photo/string-light-bulbs-at-sunset.jpg?s=612x612&w=0&k=20&c=N695nAFz9YSNxynM3auPznfA3E6wXc8D6P60bN1MaEk=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+.more-info-section .img-section{
+    position: relative;
+}
+
+.more-info-section .img-section img{
+    width: 60%;
+}
+
+.business-section{
+    padding-top: 3rem;
+}
+
+.carousel .card{
+    color: var(--bg-main-color);
+    transition: all 0.3s linear;
+}
+
+.carousel-inner .card:hover{
+    background-color: rgb(101, 219, 152);
+}
+
+.carousel-inner .card:hover p{
+    color: rgb(11, 252, 252);
+}
+
+.fa-star{
+    color: rgb(245, 0, 171);
+}
+
+.carousel-indicators{
+    bottom: -20%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: .7rem;
+    height: .7rem;
+    background-color: #1089ff;
+}
+
+.contact-section .common-title{
+    padding-top: 6rem;
+}
+
+.contact-section .form-section{
+    width: 50%;
+}
+
+.main-footer-section{
+    padding: 0 0 4rem 0;
+}
+
+.contact-div{
+    background-color: #222;
+}
+
+.icon-div{
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.bg-theme{
+    color: rgb(121, 0, 234);
+    font-weight: bold;
+    background-color: none !important;
+}
+
+.fa-globe{
+    width: 30vh;
+}
+
+
+
+@media screen  and (max-width:998){
+    .navbar-toggler{
+        border-color: #1089ff;
+    }
+
+    .navbar-toggler-icon{
+        color: aqua;
+        background-color: #fff;
+    }
+}
